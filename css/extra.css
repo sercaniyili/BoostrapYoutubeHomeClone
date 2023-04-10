@@ -1,0 +1,96 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f0f0f;
+}
+
+/* Navbar Header start */
+.header-input input {
+    border-radius: 50px;
+    border-color:  hsl(0, 0%, 18.82%);
+}
+
+.header-right button{
+    color: rgba(0, 217, 255, 0.786);
+    border-color:  hsl(0, 0%, 2%);
+}
+
+.header-right .bi-person{
+    color: rgba(0, 217, 255, 0.786);
+}
+
+.site-logo{
+    height: 80x;
+    width: 100px;
+}
+/* Navbar Header end */
+
+/* navs-left start */
+.nav-left .nav-item{
+    width: 84%;
+    padding-bottom: 2px; 
+} 
+
+.nav-item .nav-link {
+    color: aliceblue;
+    }
+
+ .nav-item:hover, .nav-item:active{
+   background-color: #3c3f43;
+   border-radius: 10px;
+}
+
+.nav-item .active{
+    background-color: #3c3f43;
+}
+/* navs-left end */
+
+/* navs-top start */
+.navs-topics .nav-item{
+    width: fit-content;
+    margin-right: 10px;  
+}
+
+.navs-topics .nav-item a{
+   height: max-content;
+   padding: 2px 7px;
+}
+/* navs-top end */
+
+
+/* cards start */
+
+.card{
+    background-color: #0f0f0f;
+    color: #F1F1F1;
+}
+
+.card-body .card-text{
+   color:  #AAAAAA;
+   font-size: small;
+}
+
+.logo{
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;
+}
+
+.card-title{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* cards end */
+
+@media screen and (max-width: 960px) {
+    .navs-left{ display: none;}
+}
